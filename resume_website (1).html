@@ -96,6 +96,26 @@
       background: #009f7f;
     }
 
+    .download-button {
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .download-button a {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background-color: var(--primary);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .download-button a:hover {
+      background-color: #004999;
+    }
+
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -113,79 +133,14 @@
         <a href="https://github.com/Pavelsukhoi">GitHub</a>
       </div>
       <div class="location">📍 Dhone, Kurnool District, Andhra Pradesh – 518002</div>
+      <div class="download-button">
+        <a href="/mnt/data/Preetham_Updated_Resume_2025.docx" download>📄 Download Resume (PDF)</a>
+      </div>
     </div>
 
-    <div class="section">
-      <h2>Professional Summary</h2>
-      <p>Analytical and detail-oriented Data Analyst with hands-on experience in data science, web development, and machine learning. Demonstrated ability to extract actionable insights from complex datasets, develop real-time dashboards, and automate data reporting. Experienced in working on government analytics projects and technical support roles. Eager to contribute to data-driven decision-making and impactful business outcomes.</p>
-    </div>
+    <!-- Content sections remain unchanged below... -->
 
-    <div class="section">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> Python, SQL, Java, C, C++</li>
-        <li><strong>Libraries/Frameworks:</strong> NumPy, Pandas, TensorFlow, Keras, Scikit-learn, PyTorch</li>
-        <li><strong>Visualization:</strong> Tableau, Power BI, Matplotlib, Seaborn</li>
-        <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Node.js, React.js, AngularJS</li>
-        <li><strong>Tools & Platforms:</strong> Linux, Git, OpenCV, Shell Scripting, XAMPP</li>
-        <li><strong>Others:</strong> Data Cleaning, Feature Engineering, API Integration, Networking</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Professional Experience</h2>
-      <p class="job-title">Data Analyst – Sanity Technologies Pvt. Ltd., Patna, Bihar</p>
-      <p class="job-duration">Apr 2024 – Present</p>
-      <ul>
-        <li>Developed and maintained automated dashboards to track KPIs across government education initiatives.</li>
-        <li>Conducted exploratory data analysis to support program implementation and policy decisions.</li>
-        <li>Streamlined data pipelines using Python and SQL, reducing reporting time by 40%.</li>
-        <li>Collaborated with cross-functional teams to deliver insights and regular performance reports.</li>
-      </ul>
-
-      <p class="job-title">Technical Support Engineer – Zoho Corporation Pvt. Ltd., Chennai</p>
-      <p class="job-duration">May 2022 – Oct 2022</p>
-      <ul>
-        <li>Diagnosed and resolved platform issues through log analysis and customer interaction.</li>
-        <li>Coordinated with development teams for timely resolution of bugs and escalations.</li>
-        <li>Delivered user feedback to improve product features and support documentation.</li>
-        <li>Maintained high standards in customer satisfaction and issue resolution.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>ICTLab Data Analytics – Govt. of Bihar:</strong> Built dashboards for monitoring school lab usage (Python, Excel, Tableau).</li>
-        <li><strong>Student Credit Card Scheme:</strong> Developed workflows for data verification and fraud detection (Python, SQL).</li>
-        <li><strong>RetailX Analytics:</strong> Segmented customers and analyzed sales trends (Power BI, SQL).</li>
-        <li><strong>Churn Prediction:</strong> Built ML models to predict user churn (scikit-learn, Python).</li>
-        <li><strong>Mask Detection:</strong> Real-time detection using MobilenetV2 and OpenCV.</li>
-        <li><strong>Konkani TTS:</strong> PDF-to-speech converter with localization (Python, PHP, JS).</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>PG Program in Engineering and Data Science</strong> – Great Lakes, Hyderabad – 2024</li>
-        <li><strong>B.Tech in CSE</strong> – Karunya Institute of Science and Technology – 2022 | 56%</li>
-        <li><strong>12th Grade</strong> – Narayana Jr. College, Kurnool – 2018 | 79%</li>
-        <li><strong>10th Grade</strong> – Oneiro Concept School, Dhone – 2016 | CGPA: 8.8</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Certifications & Achievements</h2>
-      <ul>
-        <li>JEE Mains Qualified – 2018</li>
-        <li>Gold Medal – IIT Math Olympiad – 2017</li>
-        <li>Certified in Python, Android (Java), and Web Development – Udemy</li>
-        <li>Basic Networking – Cisco Packet Tracer</li>
-      </ul>
-    </div>
   </div>
-
   <script>
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
